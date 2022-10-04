@@ -3,11 +3,11 @@ package pruebas;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Buy extends BaseTestSuite{
+public class Navegacion_Pres_Solidario_PropuestaF22 extends BaseTestSuite{
 
 
     @Test
-    public void lookFor() throws InterruptedException {
+    public void caminoFeliz() throws InterruptedException {
         //abrir url
         chromeDriver.get("https://webintqa.sii.cl:1951/AUT2000/InicioAutenticacion/IngresoRutClave.html?https://zeuscertx86.sii.cl:441/dior_cgi/ren_mp/REN_MenusRenta.cgi?opcion=11");
 
@@ -22,4 +22,5 @@ public class Buy extends BaseTestSuite{
         Thread.sleep(3000);
 
     }
+    
 }
